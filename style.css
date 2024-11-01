@@ -57,7 +57,7 @@ footer .direcionamentos a {
 footer {
     background: rgb(180, 23, 33);
     background: linear-gradient(90deg, rgba(180, 23, 33, 1) 33.16%, rgba(230, 28, 40, 1) 69.05%);
-    height: 25vh;
+    height: auto;
     width: 100vw;
     display: flex;
     justify-content: center;
