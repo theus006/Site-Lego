@@ -1,0 +1,514 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Roboto", serif;
+}
+
+header {
+    font-family: inherit;
+    font-family: "Roboto", serif;
+    font-weight: 700;
+}
+
+.barra {
+    height: 10px;
+    width: 100vw;
+    background-color: #F8BF2A;
+}
+
+header img {
+    width: 100vw;
+    /*ajusta o tamanho do banner*/
+    height: auto;
+}
+
+header nav {
+    width: 100vw;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgb(180, 23, 33);
+    background: linear-gradient(90deg, rgba(180, 23, 33, 1) 33.16%, rgba(230, 28, 40, 1) 69.05%);
+    margin-top: -5px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+header ul li {
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+header a,
+footer .direcionamentos a {
+    text-decoration: none;
+    font-style: bolder;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: white;
+}
+
+footer {
+    background: rgb(180, 23, 33);
+    background: linear-gradient(90deg, rgba(180, 23, 33, 1) 33.16%, rgba(230, 28, 40, 1) 69.05%);
+    height: 25vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    margin-top: 80px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+footer .links {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer .links section:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-self: flex-end;
+    padding: 20px;
+}
+
+footer .dir {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 110px;
+}
+
+footer .dir ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+footer .midia {
+    height: 120px;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .midia ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 80px;
+    margin-top: 10px;
+}
+
+footer .midia2 {
+    margin-top: 10px;
+}
+
+footer .midia a {
+    font-size: 1.3rem;
+}
+
+footer .midia h3 {
+    color: white;
+}
+
+footer #politicas {
+    font-size: 0.55rem;
+}
+
+footer #politicas ul {
+    list-style-type: none;
+    display: flex;
+}
+
+footer #politicas ul li {
+    margin-right: 20px;
+}
+
+footer #politicas a {
+    font-weight: 300;
+}
+
+.fa-brands {
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding-top: 4px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #E61C28;
+    background-color: white;
+}
+
+a:hover {
+    text-decoration: 3px underline;
+    text-decoration-color: #F8BF2A;
+}
+
+.estiloIndex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+.estiloIndex .itens {
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+
+}
+
+.estiloIndex .itens .imagem img {
+    width: 400px;
+}
+
+.estiloIndex .itens .texto p {
+    text-align: left;
+    width: 400px;
+    font-weight: 700;
+}
+
+.estiloIndex .titulo h2 {
+    text-decoration: underline 4px;
+    text-decoration-color: #E61C28;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+#textoIndex2 p {
+    text-align: right;
+    width: 400px;
+    font-weight: 700;
+}
+
+.bannerIndex img {
+    width: 100vw;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.estiloIndex #img2 {
+    width: 180px;
+    height: 280px;
+    margin-left: 100px;
+}
+
+
+.corpoContato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin-top: 40px;
+}
+
+.corpoContato .titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.corpoContato .titulo h2 {
+    text-decoration: #E61C28 underline 4px;
+    margin-bottom: 30px;
+}
+
+.corpoContato .titulo p {
+    text-align: center;
+    width: 400px;
+}
+
+.corpoContato .entradas {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    height: 500px;
+    width: 1000px;
+    box-sizing: border-box;
+}
+
+.corpoContato .entradas form {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.corpoContato .entradas .info1 {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: flex-start;
+}
+
+.corpoContato .entradas .info1 .entradaInformacao:nth-child(1) {
+    margin: 0%;
+}
+
+.entradaInformacao {
+    width: 400px;
+    height: 50px;
+    box-sizing: border-box;
+    padding-left: 40px;
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: #7B7373;
+    color: #7B7373;
+    background-color: #D9D9D9;
+    font-weight: 700;
+    margin-top: 20px;
+
+}
+
+#btnEnviar {
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: #7B7373;
+    color: white;
+    background-color: #E61C28;
+    font-weight: 700;
+}
+
+#btnEnviar:hover {
+    color: #F8BF2A;
+}
+
+.corpoContato .entradas .info2 textarea {
+    height: 260px;
+    width: 400px;
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    border-radius: 20px;
+    border-color: #7B7373;
+    color: #7B7373;
+    font-weight: 700;
+    background-color: #D9D9D9;
+}
+
+.corpoContato .entradas .info2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteiner {
+    margin-left: 20px;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+}
+
+.conteiner .box {
+    width: 400px;
+    height: 450px;
+    margin-right: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.conteiner .box figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    flex-basis: 460px;
+}
+
+.conteiner .box img {
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.conteiner .box p {
+    font-size: 0.9rem;
+    margin-top: 10px;
+
+}
+
+.conteiner .box input {
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: #E61C28;
+    color: white;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+
+}
+
+.conteiner .box input:hover {
+    color: #F8BF2A;
+}
+
+.box button {
+    border: none;
+}
+
+
+@media screen and (max-width:600px) {
+    header {
+        width: 100vw;
+    }
+
+    footer {
+        height: 60vw;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer .links section:nth-child(1) {
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin-bottom: 10px;
+        width: 200px;
+        height: auto;
+    }
+
+    footer .dir {
+        width: 150px;
+    }
+
+    footer #politicas li, footer .dir li{
+        margin-top: 5px;
+    }
+
+    footer .dir li {
+        margin: 0%;
+        
+    }
+
+    footer .dir ul, footer #politicas ul {
+        flex-direction: column;
+    }
+
+    footer .midia {
+        margin-top: 35px;
+        width: 20vw;
+    }
+    /*configurações da página da página de produtos*/
+    .conteiner {
+        flex-direction: column;
+        padding: 0%;
+        margin-left: 0px;
+    }
+
+    .conteiner .box {
+        margin-top: 30px;
+        justify-content: center;
+        width: 100vw;
+    }
+
+    .conteiner .box figcaption {
+        width: 290px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    /*configurações da página de contato*/
+    .corpoContato .entradas {
+        height: 600px;
+        width: 100vw;
+    }
+
+    .corpoContato .titulo p {
+        text-align: center;
+        width: 80vw;
+    }
+
+    .corpoContato form {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 600px;
+        width: 100vw;
+    }
+
+    .corpoContato .entradas .info1, .corpoContato .info2 {
+        width: 100vw;
+        margin: 0%;
+        align-items: center;
+    }
+
+    .corpoContato .info2 {
+        margin-top: 20px;
+    }
+
+    .corpoContato .entradas .info2 textarea {
+        width: 300px;
+    }
+
+    .entradaInformacao {
+        width: 300px;
+        height: 50px;
+    }
+
+    /*configurações do index*/
+    .estiloIndex {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .itens article:nth-child(2) {
+        margin-top: 20px;
+    }
+    .estiloIndex .itens {
+        flex-direction: column;        
+        width: 100vw;
+        align-items: center;
+    }
+
+    .estiloIndex .itens .texto p, #textoIndex2 p{
+        text-align: center;
+        width: 80vw;
+        font-weight: 700;
+    }
+
+    .estiloIndex #img2 {
+        margin-left: 0;
+        height: 200px;
+        width: auto;
+    }
+
+    .estiloIndex #img1 {
+        width: 300px;
+    }
+
+}
